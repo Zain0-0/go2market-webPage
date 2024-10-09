@@ -1,0 +1,693 @@
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+* {
+  margin: 0;
+  
+}
+.container {
+  font-family: lato;
+  font-size: 15px;
+  /* position: relative; */
+  /* height: 1000px; */
+}
+.uni-padding {
+  padding: 0 4%;
+}
+.nav-top {
+  padding: 15px 4%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  /* height: 40px; */
+  height: 20px;
+}
+.nav-top-coures {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.nav-top a {
+  color: white;
+}
+.button{
+  cursor: pointer;
+}
+.yellow-text {
+  color: #ff9b00;
+  margin: 0 5px;
+}
+img {
+  color: white;
+  display: inline;
+  margin: 0 5px;
+}
+.nav-top-contacts span img {
+  margin-top: 5px;
+  font-size: small;
+}
+.nav-top-contacts-phone {
+  margin: 0 5px;
+}
+.nav-top-contacts-email {
+  margin: 0 5px;
+}
+.nav-icons {
+  padding: 2px;
+}
+.nav-bottom {
+  padding: 10px 4%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  box-shadow:2px 2px 10px black ;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 20px;
+}
+.nav-bar2{
+  display: none;
+}
+.nav-bar-bars{
+  display: none;
+}
+#courses {
+  border: none;
+  width: 100px;
+}
+/* ul {
+  list-style: none;
+} */
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+ul li a {
+  text-align: center;
+  /* text-wrap: nowrap; */
+}
+/* Style the navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* width: 100%; */
+  }
+  .nav-bottom-logo{
+    width: 200px;
+  }
+
+.nav-bottom-links{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-bottom-links-ul {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+    /* align-items: center; */
+    
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+a {
+  color: black;
+}
+.auth{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.auth-icons {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+/* main section starts */
+.main{
+    
+}
+.new-possibilities{
+    background-image: url(../images/banner.jpg);
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.new-possibilities-text{
+    text-align: left;
+}
+.size26{
+    font-size: 26px;
+}
+.size46{
+    font-size: 46px;
+}
+.button{
+    background-color: #ff9b00;
+    font-size: 18px;
+    padding: 14px 40px;
+    margin: 22.5px 0px 0px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0px;
+}
+.button:hover{
+  background-color: black;
+  color: #ff9b00;
+  transition: all;
+  transition-duration: 1s;
+}
+.amazon.spn{
+    padding: 60px 80px;
+}
+.amazon-spn-text{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}.amazon-spn-text-logo{
+    padding-right: 0px;
+   max-width: 300px;
+   margin-right: 20px;
+}
+.amazon-spn-text-text{
+    padding-left: 0px;
+    max-width: 300px;
+    margin-left: 20px;
+}
+.amazon-spn-text-text-p{
+    color: black;
+    text-wrap: wrap;
+}
+.size26-bold{
+    font-weight: 900;
+}
+.amazon-spn-courses{
+    display: flex;
+    
+    
+}
+.amazon-spn-courses-course{
+    margin: 20px 10px;
+    padding: 20px 10px;
+    width: 30%;
+}
+.amazon-spn-courses-course-logo,.amazon-spn-courses-course-text,.amazon-spn-courses-course-heading,.amazon-spn-courses-course-button{
+    margin: 20px auto;
+    text-align: center;
+}
+.amazon-spn-courses-course-logo,.amazon-spn-courses-course-button,.amazon-spn-courses-course-heading{
+    height: 140px;
+}
+.amazon-spn-courses-course-heading{
+    font-size: 30px;
+    height: 150px;
+}
+.amazon-spn-courses-course-text{
+    height: 300px;
+    overflow: hidden;
+}
+.dont-miss{
+    padding:  5%;
+    background-color: #ff9b00;
+}
+.dont-miss-padding{
+    margin: 25px auto;
+}
+.dont-miss-size30{
+    font-size:30px;
+}
+.dont-miss-size26{
+    font-size: 26px;
+}
+.dont-miss-size46{
+    font-size: 46px;
+    font-weight: 900;
+}
+.dont-miss-button{
+    display: flex;
+    justify-content: center;
+}
+.white-button{
+    /* margin: 10px 5px; */
+    background-color: #ddd;
+    
+}
+.your-business{
+  padding-top: 40px;
+}
+.your-business-heading{
+
+  text-align: center;
+}
+.your-business-heading-h2{
+  font-size: 36px;
+  display: inline;
+}
+.your-business-heading-h2-bold{
+  font-weight: bolder;
+}
+.your-business-heading p{
+  color: black;
+  display: inline;
+}
+.your-business-mid{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.your-business-mid-benafits{
+  padding: 15px;
+  max-height: 450px;
+}
+.size40{
+  padding-top: 20px;
+  font-size: 40px;
+}
+.size35{
+  padding-top: 1px;
+  font-size: 35px;
+}
+.your-business-mid-benafits-p{
+  padding-top: 20px;
+}
+.your-business-foot{
+  padding: 20px;
+}
+.your-business-foot-text{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.your-business-foot h4,.your-business-foot p{
+   padding: 10px;
+}
+.your-business-foot-button{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.costumers{
+  padding: 60px 80px;
+}
+.costumers-heading{
+  text-align: center;
+}
+.size36{
+  font-size: 36px;
+  display: inline;
+  margin: 5px;
+}
+@keyframes review {
+  0%{margin-left: 100%;}
+  /* 25%{margin-left: 75%;}
+  50%{margin-left: 50%;}
+  75%{margin-left: 25%;}  */
+  100%{margin-left: 0%;} 
+}
+.costumers-review{
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  height: 200px;
+  animation-name: review;
+  animation-duration: 3s ;
+  animation-delay:5s;
+  animation-iteration-count: 10;
+  animation-timing-function: linear;  
+  
+}
+.size17{
+  font-size: 17px;
+  padding: 15px;
+  line-height: 1.5em;
+  color: #212529;
+}
+.blog{
+  padding: 60px 80px;
+  text-align: center;
+}
+.blog-FAQs{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.blog-FAQ{
+  margin: 25px 10px;
+  text-wrap: wrap;
+  text-align: left;
+}
+
+.blog-FAQ img:hover{
+   cursor: pointer;
+   width: 27vw;
+   /* height: 27vh; */
+   transition: 0.4s ease all;
+   object-fit: cover;
+   
+}
+
+.blog-FAQ .p2{
+  min-height: 200px;
+}
+.blog-FAQ p, .blog-FAQ h2 ,.blog-FAQ button{
+  margin: 10px;
+}
+.size18{
+  font-size: 18px;
+}
+.size15{
+  font-weight: 100;
+  font-size: 15px;
+
+}
+.blog-FAQ-div{
+  display: flex;
+}
+ #blog-FAQ-ul{
+  list-style: circle;
+  color: black;
+ }
+ .selling{
+  padding: 2% 6%;
+
+ }
+ .selling-text{
+  margin: 25px;
+ }
+ .selling-text h4, .selling-text p{
+  margin: 10px;
+ }
+ .tikka{
+  padding: 2% 6%;
+ }
+ .tikka-top{
+      padding: 30px;
+      display: flex;
+ }
+ .tikka-top-banner,.tikka-top-text{
+  margin: 5px 15px;
+ }
+ .tikka-bottom{
+  margin: 20px;
+  padding: 15px;
+ }
+ .form{
+  background-color: #ff9b00;
+  padding: 2% 6%;
+ }
+ .size30{
+  font-size: 30px;
+  color: black;
+ }
+ .form-head{
+  text-align: center;
+ }
+ .form-head h2,.form-head p{
+  margin: 10px;
+  padding: 10px;
+ }
+ .form-form{
+  margin: 20px;
+ }
+ .form-form-input{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+ }
+ .form-form-input input, .form-form-input label{
+  width: 70%;
+  margin: 3px 15px;
+  padding: 2px 10px;
+ }
+ .form-form-input input{
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 25px;
+ }
+ sup{
+  color: red;
+ }
+ #submit{
+  height: 35px;
+  width: 72%;
+  background-color: black;
+  color: #ddd;
+ }
+ #submit:hover{
+  background-color: #ddd;
+  color: black;
+  border-color:#ddd ;
+ }
+.footer-text{
+  padding: 5% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-text ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-text-li{
+  display: block;
+  cursor: pointer;
+
+}
+.footer-text-li:hover{
+  border-bottom: 1px solid black;
+  width: fit-content;
+}
+.footer-contact{
+  display: flex;
+  flex-direction: column;
+}
+.footer-text-section{
+  padding: 20px;
+}
+.footer-icon{
+  height: 20px;
+  width: 20px;
+  border-radius: 60%;
+  background-color: #ff9b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 5px;
+}
+.footer-icons-div{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  margin-left: 0px;
+
+}
+.footer-icons-div a{
+  margin: 10px 0px;
+  margin-right: 10px;
+  margin-left: 0;
+
+
+}
+.footer-copyright{
+  background-color: black;
+  padding: 20px;
+}
+.footer-copyright p{
+  color: #ddd;
+}
+
+
+@media  screen and (max-width: 850px) {
+  
+  .nav-top{
+    display: block;
+    height: auto;
+  }
+  .amazon-spn-courses-course-text{
+    height: 400px;
+  }
+  .your-business-mid-benafits{
+    padding: 15px;
+    max-height: 550px;
+  }
+}
+@media  screen and (max-width: 780px) {
+    
+    .nav-top{
+      display: block;
+    }
+    .nav-bar{
+      display: none;
+      /* flex-direction: column; */
+    }
+    .nav-bottom{
+      justify-content: space-between;
+    }
+    .nav-bar-bars{
+      display: block;
+      padding: 5px;
+      border: 1px solid rgb(15, 15, 15);
+      border-radius: 5px;
+    }
+    .nav-bar-bars img{
+      cursor: pointer;
+    }
+    .nav-bar2{
+    }
+    .nav-bar2 .nav-bottom-links-ul{
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-bar2 .auth{
+      display: block;
+    }
+    .amazon-spn-courses{
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        width: auto;
+      }
+      .amazon-spn-courses-course{
+        width: auto;
+        margin: auto;
+      }
+      .amazon-spn-courses-course-text,.amazon-spn-courses-course-logo,.amazon-spn-courses-course-heading,.amazon-spn-courses-course-button{
+        height: auto;
+      }
+      .your-business-mid{
+        text-align: center;
+        display: block;
+      }
+      .your-business-foot{
+         padding: 50px;
+      }
+      .costumers-review{
+        height: 40vh;
+      }
+      .blog-FAQs{
+        display: block;
+        padding: 20px 40px;
+      }
+      .blog-FAQ img{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+      }
+      .footer-text{
+        flex-direction: column;
+      }
+
+  }
+
+@media screen and (max-width: 560px) {
+    
+    .nav-top-contacts{
+        display: none;
+        height: auto;
+    }
+    .amazon-spn-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .amazon-spn-text-logo{
+        margin: auto;
+    }
+    .amazon-spn-text-text{
+        text-align: center;
+        padding: auto;
+    }
+    .amazon-spn-courses{
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        width: auto;
+      }
+      .amazon-spn-courses-course{
+        width: auto;
+        margin: auto;
+      }
+      .amazon-spn-courses-course-text,.amazon-spn-courses-course-logo,.amazon-spn-courses-course-heading,.amazon-spn-courses-course-button{
+        height: auto;
+      }
+      .your-business-foot{
+        padding: 15px;
+      }
+      .costumers{
+        padding: 15px;
+      }
+      .blog{
+        padding: 15px;
+      }
+      .tikka-top{
+        display: block;
+      }
+      .tikka-top-banner,.tikka-top-text{
+        margin: 15px 15px;
+       }
+       .form-form-input input{
+        width: 100%;
+       }
+       #submit{
+        width: 105%;
+       }
+  }
+  /* @media screen and ( min-width:1300px ) {
+      
+    .main{
+      display: flex;
+    }
+  } */
